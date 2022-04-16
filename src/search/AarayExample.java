@@ -160,7 +160,7 @@ public class AarayExample {
 		
 	private int x =10;
 	public int y =20;
-	protected int z= 40;
+	protected int z= 40; //
 
 	
 	}

@@ -1,6 +1,6 @@
 package main;
 
-
+import java.util.*;
 import search.ProtectedTest;
 import search.AarayExample;
 import search.Car;
@@ -10,6 +10,7 @@ import order.MobileOrder;
 import search.Animal;
 import search.RitzNew;
 import order.Payment;
+import order.JDBCDemo;
 
 public class MainClass {
 
@@ -61,6 +62,8 @@ public class MainClass {
 		  ae.arraydemo();
 		  System.out.println("Solving Fizzbuzz ");
 		  
+		 
+		  
 		  ae.fizzbuzz(30, 45);
 		  
 		  int  sum = ae.add(5, 7);
@@ -91,11 +94,11 @@ public class MainClass {
 		 r.run();
 		 r.turn();
 		 r.wheelInfo();
-		 System.out.println(c.x);
+		 System.out.println(c.x); 
 		 r.add(50, 12);
 		 r.add(12, 12, 12);
 		
-		 System.out.println(r.x);
+		 System.out.println(r.x); 
 		 
 		 //You can not create an object of Abstract Class
 		// Animal  a = new Animal();
@@ -107,9 +110,7 @@ public class MainClass {
 		Dog d = new Dog();
 		d.animalSound();
 		d.sleep();
-		System.out.println(d.papa);
-		 
-		
+		System.out.println(d.papa); 
 		Payment p = new Payment();
 		
 		p.hdfc_cpay("Manish_hdfc");
@@ -120,7 +121,42 @@ public class MainClass {
 		//System.out.println(papi);
 		int papi= 10;
 		
+		String MName= "ShivAm";
+		System.out.println(MName.length());
+		System.out.println(MName.charAt(4));
+		System.out.println(MName.codePointAt(5));
 		
+		//Java User Input (Scanner) Demo
+		
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter first Name");
+		String FirstName= sc.nextLine();
+		System.out.println("Please enter Last Name");
+		String LastName = sc.nextLine();
+		
+		System.out.println(FirstName+" "+LastName);
+		
+		*/
+		
+		   // Make a collection
+	    ArrayList<String> cars = new ArrayList<String>();
+	    cars.add("Volvo");
+	    cars.add("BMW");
+	    cars.add("Ford");
+	    cars.add("Mazda");
+	  
+	    // Get the iterator
+	    Iterator<String> it = cars.iterator();
+	  
+	    // Print the first item
+	    while(it.hasNext()) {
+	    	  System.out.println(it.next());
+	    	}
+	    
+	    
+	    JDBCDemo jd = new JDBCDemo();
+	    String sql= "insert into orders values(7,107,7)";
+	    jd.connectdb(sql);
 		
 	}
 	
