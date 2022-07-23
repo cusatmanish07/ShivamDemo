@@ -3,17 +3,19 @@ pipeline {
      
   stages {
     stage('First') {
-       script {
-                sh 'echo "First stage"'
+       steps {
+           script {
+                sh ''' echo "First stage" '''
+      
+            }    
        }
     }
-     stage('Second') {
-       script {
-                 sh 'echo "Second stage"'
-       }
-     }
-  
+    stage('Second') {
+       steps {
+         script {
+                 sh '''echo "Second stage" '''
+         }
+       }  
+    }
   }
-
-
 }
