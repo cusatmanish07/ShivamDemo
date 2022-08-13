@@ -14,7 +14,7 @@ public class MobileOrder {
 	
 	public void printTwentyToOne() {
 	
-		for (int z=20;z>=1; z--) {
+		for (int z=21;z>=1; z--) {
 			   
 			System.out.println("Print the number: "+ z);
 			System.out.println("Print the multipe of 10 "+ z*10);
