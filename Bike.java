@@ -8,7 +8,7 @@ public class Bike extends Vehicle {
 
     @Override
     public String getEngineType() {
-        engineType = "P10";
+        engineType = "P12";
         return engineType;
     }
 
