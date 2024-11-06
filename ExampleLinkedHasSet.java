@@ -12,6 +12,7 @@ public class ExampleLinkedHasSet {
         lhs.add("789");
 
         System.out.println(lhs);
+        
     }
 
 
