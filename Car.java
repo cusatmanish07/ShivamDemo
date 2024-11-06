@@ -11,11 +11,11 @@ public class Car {
     }
 
     public Car (String model, String year) {
-        this (model, year, "RED");
+        this (model, year, "PINK");
     }
 
     public Car (String model) {
-        this(model, "2010", "Yellow");
+        this(model, "2024", "Yellow");
     }
 
     public Car(){};
