@@ -8,7 +8,7 @@ public class SetExample {
         hs.add("Nikku");
         hs.add("Apple");
         hs.add("Manish");
-        hs.add("123");
+        hs.add("123678");
 
         System.out.println(hs);
         System.out.println(hs.size());

@@ -126,7 +126,7 @@ public class Main {
 //        Swapping sw = new Swapping();
 //        sw.swap();
 
-        String[] e_name = {"Mansh", "Nikku", "Rishu", "Vishal", "Mummy"};
+        String[] e_name = { "Mansh", "Nikku", "Rishu", "Vishal", "Mummy" };
         ExampleLinkedList el = new ExampleLinkedList();
         el.setEmpName(e_name);
         el.displayEmpNameList();
