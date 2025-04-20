@@ -1,6 +1,6 @@
 public class Toyota {
     String t_model = "M10";
-    String t_year = "2024";
+    String t_year = "2025";
     String t_color = "White";
 
     Car c1 = new Car(t_model);

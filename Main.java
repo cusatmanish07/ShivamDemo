@@ -1,3 +1,5 @@
+import src.StringManupulation;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 public class Main {
@@ -126,18 +128,35 @@ public class Main {
 //        Swapping sw = new Swapping();
 //        sw.swap();
 
-        String[] e_name = { "Mansh", "Nikku", "Rishu", "Vishal", "Mummy" };
-        ExampleLinkedList el = new ExampleLinkedList();
-        el.setEmpName(e_name);
-        el.displayEmpNameList();
-        el.setRoll();
+//        String[] e_name = { "Mansh", "Nikku", "Rishu", "Vishal", "Mummy" };
+//        ExampleLinkedList el = new ExampleLinkedList();
+//        el.setEmpName(e_name);
+//        el.displayEmpNameList();
+//        el.setRoll();
 
 
-        SetExample s = new SetExample();
-        s.addSet();
+//        SetExample s = new SetExample();
+//        s.addSet();
+//
+//        ExampleLinkedHasSet elhs = new ExampleLinkedHasSet();
+//        elhs.linkedHasSetExample();
+//
+//        ExampleTreeSet ets = new ExampleTreeSet();
+//
+//        ets.exampleTreeSet();
 
-        ExampleLinkedHasSet elhs = new ExampleLinkedHasSet();
-        elhs.linkedHasSetExample();
+//        AddToCart ac = new AddToCart();
+//        ac.addItem("Paneer");
+//        ac.addItem("Chhola");
+//        ac.addItem("Samosa");
+//        ac.addItem("Paneer");
+//
+//        ac.updateQuantity("Paneer", 9);
+//        ac.removeItem("Chhola");
+
+        StringManupulations sm = new StringManupulations();
+
+        sm.mymethod();
     }
 
 }
